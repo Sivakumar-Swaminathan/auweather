@@ -1,0 +1,99 @@
+        body {
+            /*background-image: url('soft-flower.jpg');*/
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            background-size: 100% 100%;
+        }
+
+        #box {
+            /* position: relative; */
+            position: absolute;
+            /* width: 1000px; */
+            /* height: 500px; */
+            width: 95%;
+            height: 700%;
+            background: whitesmoke;
+            display: block;
+            top: 2%;
+            left: 2%;
+            text-align: center;
+        }
+
+        .header {
+            position: absolute;
+            width: 95%;
+            height: 40px;
+            background: lightgoldenrodyellow;
+            top: 2%;
+            left: 2%;
+            text-align: left;
+        }
+
+        #container-1 {
+            position: absolute;
+            /* width: 800px;
+            height: 100px; */
+            width: 48%;
+            height: 86%;
+            background: lightsteelblue;
+            /* display: block; */
+            top: 3%;
+            left: 2%;
+            text-align: center;
+        }
+        #container-1a {
+            position: absolute;
+            width: 98%;
+            height: 65px;
+            background: lightcyan;
+            top: 5px;
+            left: 9px;
+            text-align: left;
+        }
+        #container-1b {
+            position: absolute;
+            width: 98%;
+            height: 98%;
+            background: lightgray;
+            top: 79px;
+            left: 9px;
+            text-align: center;
+        }
+        #container-2 {
+            position: absolute;
+            width: 47%;
+            height: 86%;
+            background: lightgray;
+            top: 3%;
+            left: 50%;
+            text-align: center;
+        }
+        #container-2a {
+            position: absolute;
+            width: 98%;
+            height: 65px;
+            background: lightcyan;
+            top: 5px;
+            left: 9px;
+            text-align: left;
+        }
+        #container-2b {
+            position: absolute;
+            width: 98%;
+            height: 98%;
+            background: white;
+            top: 79px;
+            left: 9px;
+            text-align: center;
+        }
+
+        .footer {
+            position: absolute;
+            width: 95%;
+            height: 1%;
+            background: lightgoldenrodyellow;
+            top: 90%;
+            left: 3%;
+            text-align: center;
+        }

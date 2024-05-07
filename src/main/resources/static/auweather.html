@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>WeatherMap</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bg-style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js/json2.js"></script>
+    <script src="js/jsonpath-0.8.0.js"></script>
+    <script src="js/auweather.js"></script>
+</head>
+
+<body>
+    <div id="box">
+        <h2>Australia Multi-City Weather Map</h2>
+        <div class="header">
+            <table width="100%">
+                <tr><td align="left" width=50%><b> Weather forecast for next 5 days....</b></td><td align="right" width=50%>&nbsp; &nbsp; <a href="#" onclick="location.reload();">Reset</a></td></tr>
+                <tr><td align="left" width=50%>[* Please use browser window's large/max size for better UI experience]</td><td align="right" width=50%></td></tr>
+            </table>
+
+        </div>
+        <div id="container-1">
+            <div id="container-1a">
+
+                <table width="100%" border="0" cellspacing="0">
+                    <tr>
+                        <td align="left" width="30%">
+                            &nbsp;City Name (Src) : <input type="text" id="src_city" value="Melbourne">
+                        </td>
+                        <td align="left" width="40%">
+                            <fieldset>
+                                <legend>Temperature Alert :</legend>
+                                <input type="text" size="6" id="src_alert_temp" value="">
+                                &nbsp;&nbsp;Mini <input type="radio" id="src_mini_temp" name="src_temp_check"
+                                    value="src_alert_mini">
+                                &nbsp;&nbsp;Max <input type="radio" id="src_max_temp" name="src_temp_check"
+                                    value="src_alert_max">
+                                &nbsp;&nbsp;
+                            </fieldset>
+                        </td>
+                        <td align="center" width="30%">
+                            <a href="#" id="src">Apply & Extract Temperature </a>
+                            
+                        </td>
+                    </tr>
+                </table>
+
+            </div>
+            <div id="container-1b">City Weather Map</div>
+        </div>
+        <div id="container-2">
+            <div id="container-2a">
+                <table width="100%" border="0" cellspacing="0">
+                    <tr>
+                        <td align="left" width="30%">&nbsp;City Name (Dst) : <input type="text" id="dst_city"
+                                value="Sydney">
+                        </td>
+                        <td align="left" width="40%">
+                            <fieldset>
+                                <legend>Temperature Alert :</legend>
+                                <input type="text" size="6" id="dst_alert_temp" value="">
+                                &nbsp;&nbsp;Mini <input type="radio" id="dst_mini_temp" name="dst_temp_check"
+                                    value="dst_alert_mini">
+                                &nbsp;&nbsp;Max <input type="radio" id="dst_max_temp" name="dst_temp_check"
+                                    value="dst_alert_max">
+                            </fieldset>
+                        </td>
+                        <td align="center" width="30%">
+                            <a href="#" id="dst">Apply & Extract Temperature </a>
+                            
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div id="container-2b">City Weather Map</div>
+        </div>
+        <div class="footer">
+            Refresh Weather Map -> &nbsp; &nbsp;
+            <a href="#" onclick="location.reload();">reset</a>
+            <br><br>Source Feeding &#9758; openweathermap.org
+        </div>
+    </div>
+</body>
+
+</html>
