@@ -6,19 +6,19 @@ spring:
       client:
         registration:
           auth0:
-            client-id: NMZWWfABZJXU3gMwbRTWbhPxk5E1FDhP
-            client-secret: V0M8P8Ym3SN7-AOQ3WQ73f_aN4PIZOakHFArJ3AKNNVFA7l1ccA4SrZBsoPXWVE6
+            client-id: [TBF]
+            client-secret: [TBF]
             scope: openid+profile+email
         provider:
           auth0:
-            issuer-uri: https://dev-mcw7dlhmns8chw5m.us.auth0.com/
+            issuer-uri: [TBF]
 
 logging.level.root: ERROR
 logging.level.org.springframework.web: ERROR
 logging.level.org.wealther.demo: ERROR
 
 open.weather.url: https://api.openweathermap.org/data/2.5/forecast
-open.weather.apikey: 5f86cadd4448649434232b96050a3f7d
+open.weather.apikey: [FB]
 
 resilience4j:
   circuitbreaker:
