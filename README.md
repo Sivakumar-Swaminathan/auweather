@@ -1,6 +1,6 @@
 <div id="container-home" style="position:absolute;width:95%;height:90%;background:lightyellow;">
     <div id="container-header" style="position:absolute;width:40%;height:3%;top:1%;left:40%;">
-            <h1> Australia Weather Forecast - Search by City </h1>
+            <h1> &#9925; Australia Weather Forecast - Search by City </h1>
     </div>
     <div id="container-title1" style="position:absolute;width:40%;height:3%;top:8%;left:2%;">
         <h3> Project Description : </h3>
