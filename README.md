@@ -17,7 +17,7 @@ Provides weather forecast for next 4 days for multiple Australian cities. It has
             </pre>
         </div>
     <div id="container-title1" style="position:absolute;width:40%;height:3%;top:32%;left:2%;">
-        <h3> Assumption : </h3>
+        <h3> Package : </h3>
     </div>
     <div id="container-para1" style="position:absolute;width:56%;height:21%;top:38%;left:3%;background:lightgray">
         <pre align="left" style="font-size:15px;font-family: Verdana, Geneva, Tahoma, sans-serif;">
