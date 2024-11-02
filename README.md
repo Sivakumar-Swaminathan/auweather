@@ -8,7 +8,7 @@
         <div id="container-para1" style="position:absolute;width:46%;height:19%;top:13%;left:3%;background:lightgray">
             <pre align="left" style="font-size:15px;font-family: Verdana, Geneva, Tahoma, sans-serif;">
 Provides weather forecast for next 4 days for multiple Australian cities. It has a set of features,
-1.) Light weight Single Page front end Application.
+1.) Light weight Single Page front end Application..
 2.) Uses open weather API application(https://openweathermap.org/) as source feed system
 3.) In-built with secure authentication mechanism using Auth0.
 4.) Notification/Alert for temperature crossing the configured temperature limit during hot season.
